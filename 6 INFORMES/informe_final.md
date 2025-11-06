@@ -2,9 +2,7 @@
 
 El **Movimiento Armónico Simple (MAS)** es un tipo de oscilación periódica donde la fuerza que actúa sobre el objeto es proporcional y opuesta a su desplazamiento respecto al punto de equilibrio. Se describe con la siguiente ecuación:
 
-\[
-x(t) = A \cdot \cos(\omega t + \phi)
-\]
+**x(t) = A · cos(ω t + φ)**
 
 donde:  
 - **A**: amplitud de la oscilación  
