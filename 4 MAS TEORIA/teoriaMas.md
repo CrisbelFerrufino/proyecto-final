@@ -14,47 +14,37 @@ El MAS se define como el movimiento de un objeto que oscila alrededor de una pos
 
 Matemáticamente, se expresa como:
 
-\[
-a = -\omega^2 x
-\]
+**a = -ω² x**
 
 donde:  
-- \(a\) = aceleración (m/s²)  
-- \(x\) = desplazamiento desde la posición de equilibrio (m)  
-- \(\omega\) = frecuencia angular (rad/s)
+- **a** = aceleración (m/s²)  
+- **x** = desplazamiento desde la posición de equilibrio (m)  
+- **ω** = frecuencia angular (rad/s)
 
 ---
 
 ## 3. Ecuaciones Fundamentales
 
----
-
 ### 3.1 Desplazamiento
 El desplazamiento en función del tiempo está dado por:
 
-\[
-x(t) = A \cos(\omega t + \phi)
-\]
+**x(t) = A cos(ω t + φ)**
 
 donde:  
-- \(A\) = amplitud del movimiento (m)  
-- \(\omega\) = frecuencia angular (rad/s)  
-- \(\phi\) = fase inicial (rad)  
-- \(t\) = tiempo (s)
+- **A** = amplitud del movimiento (m)  
+- **ω** = frecuencia angular (rad/s)  
+- **φ** = fase inicial (rad)  
+- **t** = tiempo (s)
 
 ### 3.2 Velocidad
 La velocidad se obtiene derivando el desplazamiento respecto al tiempo:
 
-\[
-v(t) = -A \omega \sin(\omega t + \phi)
-\]
+**v(t) = -A ω sin(ω t + φ)**
 
 ### 3.3 Aceleración
 La aceleración se obtiene derivando la velocidad o usando la definición del MAS:
 
-\[
-a(t) = -A \omega^2 \cos(\omega t + \phi)
-\]
+**a(t) = -A ω² cos(ω t + φ)**
 
 ---
 
@@ -62,47 +52,41 @@ a(t) = -A \omega^2 \cos(\omega t + \phi)
 
 El MAS conserva energía mecánica, que es la suma de energía cinética y potencial:
 
-\[
-E = E_c + E_p
-\]
+**E = E_c + E_p**
 
-- Energía cinética: \(\displaystyle E_c = \frac{1}{2} m v^2\)  
-- Energía potencial: \(\displaystyle E_p = \frac{1}{2} k x^2\)  
+- Energía cinética: **E_c = 1/2 m v²**  
+- Energía potencial: **E_p = 1/2 k x²**  
 
-donde \(m\) es la masa del objeto y \(k\) la constante del resorte. La energía total \(E\) se mantiene constante si no hay fuerzas disipativas.
+donde **m** es la masa del objeto y **k** la constante del resorte. La energía total **E** se mantiene constante si no hay fuerzas disipativas.
 
 ---
 
 ## 5. Periodo y Frecuencia
 
-- *Periodo (\(T\))*: tiempo que tarda en completar una oscilación.  
-\[
-T = \frac{2\pi}{\omega} = 2\pi \sqrt{\frac{m}{k}}
-\]
+- **Periodo (T)**: tiempo que tarda en completar una oscilación.  
+**T = 2π/ω = 2π √(m/k)**
 
-- *Frecuencia (\(f\))*: número de oscilaciones por segundo.  
-\[
-f = \frac{1}{T} = \frac{\omega}{2\pi}
-\]
+- **Frecuencia (f)**: número de oscilaciones por segundo.  
+**f = 1/T = ω/(2π)**
 
 ---
 
 ## 6. Ejemplo de MAS en Laboratorio
 
-*Materiales:*  
+**Materiales:**  
 - Resorte  
 - Masa  
 - Soporte  
 - Cronómetro  
 - Regla
 
-*Procedimiento:*  
+**Procedimiento:**  
 1. Colocar la masa sobre el resorte y medir la posición de equilibrio.  
 2. Desplazar la masa una distancia conocida y soltarla.  
 3. Medir el tiempo de varias oscilaciones para calcular el periodo.  
 4. Graficar el desplazamiento vs tiempo y verificar que sigue la forma de un coseno.
 
-*Observaciones:*  
+**Observaciones:**  
 - La amplitud disminuye si hay fricción.  
 - El periodo depende de la masa y la constante del resorte, pero no de la amplitud.
 
@@ -116,4 +100,4 @@ El Movimiento Armónico Simple es un modelo fundamental para entender oscilacion
 
 ## 8. Referencias
 
-1. Serway, R. A., & Jewett, J. W. Física para ciencias e ingeniería. Méxi
+1. Serway, R. A., & Jewett, J. W. *Física para ciencias e ingeniería.* México: Editorial.

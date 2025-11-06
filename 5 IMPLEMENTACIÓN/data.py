@@ -4,7 +4,7 @@ import numpy as np
 
 m_base = 0.2  # ejemplo: 0.2 kg. Reemplaza por el valor real si lo conoces.
 
-# Los factores que vienen en los títulos: 4m, 3m, 3m, 2m, 2m, 1m
+# Los factores 
 mass_factors = {
     "Tabla 1 (4m)": 4,
     "Tabla 2 (3m)": 3,
