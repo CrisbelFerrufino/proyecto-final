@@ -1,0 +1,61 @@
+# data.py
+import numpy as np
+
+# --- CAMBIA este valor si sabes la masa base m (en kg) ---
+m_base = 0.2  # ejemplo: 0.2 kg. Reemplaza por el valor real si lo conoces.
+
+# Los factores que vienen en los títulos: 4m, 3m, 3m, 2m, 2m, 1m
+mass_factors = {
+    "Tabla 1 (4m)": 4,
+    "Tabla 2 (3m)": 3,
+    "Tabla 3 (3m)": 3,
+    "Tabla 4 (2m)": 2,
+    "Tabla 5 (2m)": 2,
+    "Tabla 6 (m)"  : 1,
+}
+
+# Tus datos (copiados tal como los pegaste)
+data_tables = {
+    "Tabla 1 (4m)": {
+        "t": [0.000, 0.200, 0.400, 0.600, 0.800, 1.000],
+        "x": [0.000, 0.951, 0.809, 0.309, -0.309, -0.951],
+        "v": [0.000, 0.485, -0.924, -1.387, -1.494, -0.485],
+    },
+    "Tabla 2 (3m)": {
+        "t": [0.000, 0.200, 0.400, 0.600, 0.800, 1.000],
+        "x": [0.707, 0.410, 0.060, -0.298, -0.618, -0.856],
+        "v": [-1.283, -1.654, -1.811, -1.731, -1.427, -0.936],
+    },
+    "Tabla 3 (3m)": {
+        "t": [0.000, 0.200, 0.400, 0.600, 0.800, 1.000],
+        "x": [0.000, 0.340, 0.642, 0.837, 0.894, 0.804],
+        "v": [3.628, 3.091, 2.174, 0.943, -0.543, -2.314],
+    },
+    "Tabla 4 (2m)": {
+        "t": [0.000, 0.200, 0.400, 0.600, 0.800, 1.000],
+        "x": [0.000, 0.860, 1.552, 1.944, 1.958, 1.591],
+        "v": [4.443, 4.012, 2.801, 1.047, -0.910, -2.691],
+    },
+    "Tabla 5 (2m)": {
+        "t": [0.000, 0.200, 0.400, 0.600, 0.800, 1.000],
+        "x": [2.000, 1.200, 0.000, -1.200, -2.000, -1.200],
+        "v": [0.000, -3.488, -4.000, -3.488, 0.000, 3.488],
+    },
+    "Tabla 6 (m)": {
+        "t": [0.000, 0.200, 0.400, 0.600, 0.800, 1.000],
+        "x": [-1.000, -0.809, -0.309, 0.309, 0.809, 1.000],
+        "v": [0.000, 1.847, 2.988, 2.988, 1.847, 0.000],
+    },
+}
+
+# Función auxiliar para convertir a numpy
+def get_tables_as_numpy():
+    out = {}
+    for name, d in data_tables.items():
+        out[name] = {
+            "t": np.array(d["t"], dtype=float),
+            "x": np.array(d["x"], dtype=float),
+            "v": np.array(d["v"], dtype=float),
+            "mass": mass_factors[name] * m_base
+        }
+    return out
