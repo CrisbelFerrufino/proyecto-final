@@ -1,7 +1,7 @@
 # data.py
 import numpy as np
 
-# --- CAMBIA este valor si sabes la masa base m (en kg) ---
+
 m_base = 0.2  # ejemplo: 0.2 kg. Reemplaza por el valor real si lo conoces.
 
 # Los factores que vienen en los títulos: 4m, 3m, 3m, 2m, 2m, 1m
@@ -14,7 +14,7 @@ mass_factors = {
     "Tabla 6 (m)"  : 1,
 }
 
-# Tus datos (copiados tal como los pegaste)
+# Valores de las tablas
 data_tables = {
     "Tabla 1 (4m)": {
         "t": [0.000, 0.200, 0.400, 0.600, 0.800, 1.000],

@@ -1,10 +1,10 @@
-# Inco: Cengage Learning, 2018.  
-2. Halliday, D., Resnick, R., & Walker, J. Fundamentos de Física. México: Wiley, 2014.  
-3. Tipler, P. A., & Mosca, G. Física para la Ciencia y la Tecnología. México: Reverté, 2015.forme de Proyecto Final: Movimiento Armónico Simple
+# MOVIMIENTO ARMÓNICO SIMPLE
+
+---
 
 ## 1. Introducción
 
-El *Movimiento Armónico Simple (MAS)* es un tipo de movimiento periódico que se caracteriza por repetirse en intervalos de tiempo constantes. Se encuentra presente en muchos fenómenos físicos, como oscilaciones de resortes, péndulos, vibraciones de cuerdas y circuitos eléctricos. Este informe tiene como objetivo describir la teoría del MAS, sus ecuaciones fundamentales y ejemplos prácticos de laboratorio.
+El *Movimiento Armónico Simple (MAS)* es un tipo de movimiento periódico que **se caracteriza por repetirse en intervalos de tiempo constantes**. Se encuentra presente en muchos fenómenos físicos, como oscilaciones de resortes, péndulos, vibraciones de cuerdas y circuitos eléctricos. Este informe tiene como objetivo describir la teoría del MAS, sus ecuaciones fundamentales y ejemplos prácticos de laboratorio.
 
 ---
 
@@ -26,6 +26,8 @@ donde:
 ---
 
 ## 3. Ecuaciones Fundamentales
+
+---
 
 ### 3.1 Desplazamiento
 El desplazamiento en función del tiempo está dado por:

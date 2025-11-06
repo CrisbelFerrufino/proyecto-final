@@ -3,15 +3,15 @@ import numpy as np
 from data import get_tables_as_numpy
 
 def detect_period_simple(t, x):
-    # Método sencillo: detectar ceros ascendentes o máximos con comparación local
-    # Intentaremos estimar T como distancia entre máximos locales
+    # Detectar ceros ascendentes o máximos con comparación local
+    # Estimar T como distancia entre máximos locales
     peaks = []
     for i in range(1, len(x)-1):
         if x[i] > x[i-1] and x[i] > x[i+1]:
             peaks.append(t[i])
-        # también picos negativos (mínimos) se pueden usar, no obligatorio
+        # Picos negativos (mínimos) se pueden usar, no obligatorio
     if len(peaks) < 2:
-        # intentar usar cruces por cero para estimar T/2
+        # Usar cruces por cero para estimar T/2
         zeros = []
         for i in range(len(x)-1):
             if x[i] == 0 or (x[i] < 0 and x[i+1] > 0) or (x[i] > 0 and x[i+1] < 0):
@@ -53,7 +53,7 @@ if ks:
     print(f"\nConstante k promedio = {k_mean:.3f} ± {k_mean_err:.3f} N/m")
     # calcular periodo para masa 9m
     m_base = None
-    # intentamos recuperar m_base desde data (si user puso en data.py)
+    # Recuperar m_base desde data (si user puso en data.py)
     try:
         from data import m_base
         m_base = m_base
