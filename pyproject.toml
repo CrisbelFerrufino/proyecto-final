@@ -6,7 +6,8 @@ authors = [
     {name = "CrisbelFerrufino", email = "202505846@est.umss.edu"}
 ]
 readme = "README.md"
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.11,<3.15"
+
 dependencies = [
     "matplotlib (>=3.10.7,<4.0.0)"]
 
