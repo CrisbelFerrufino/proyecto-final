@@ -1,6 +1,6 @@
 def coeficiente_A(x, y):
     """
-    Calcula el coeficiente A usando la fórmula de mínimos cuadrados.
+    Calcula el coeficiente A usando la fórmula de mínimos cuadrados
     x = tiempos t
     y = arccos(X / Xmax)
     """
