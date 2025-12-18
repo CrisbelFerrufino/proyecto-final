@@ -6,7 +6,7 @@ authors = ["CrisbelFerrufino <202505846@est.umss.edu>"]
 readme = "README.md"
 
 packages = [
-    { include = "proyecto_final", from = "src" }
+    { include = "programas", from = "src" }
 ]
 
 [tool.poetry.dependencies]
