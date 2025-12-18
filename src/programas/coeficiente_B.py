@@ -1,2 +1,2 @@
-def coeficiente_B(m):
+def obtener_pendiente(m):
     return m

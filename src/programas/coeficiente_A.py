@@ -1,3 +1,3 @@
-def coeficiente_A(b):
+def obtener_intercepto(b):
     return b
 
