@@ -12,5 +12,5 @@ env/
 # Pytest cache
 .pytest_cache/
 
-# VS Code settings (opcional)
+# VS Code settings 
 .vscode/
