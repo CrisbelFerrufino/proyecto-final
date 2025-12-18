@@ -1,18 +1,17 @@
-[project]
+[tool.poetry]
 name = "proyecto-final"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "CrisbelFerrufino", email = "202505846@est.umss.edu"}
-]
+authors = ["CrisbelFerrufino <202505846@est.umss.edu>"]
 readme = "README.md"
-requires-python = ">=3.11,<3.15"
 
-package-mode = false
+packages = [
+    { include = "proyecto_final", from = "src" }
+]
 
-
-dependencies = [
-    "matplotlib (>=3.10.7,<4.0.0)"]
+[tool.poetry.dependencies]
+python = ">=3.11,<3.15"
+matplotlib = ">=3.10.7,<4.0.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
