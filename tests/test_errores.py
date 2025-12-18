@@ -1,4 +1,5 @@
-from src.errores_coeficientes import errores_m_b
+from programas.errores_coeficientes import errores_m_b
+
 import numpy as np
 
 def test_errores():
